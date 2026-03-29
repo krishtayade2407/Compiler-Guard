@@ -1,0 +1,11 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_11.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_11.c:1:24: warning: missing terminating " character
+    1 | int main() { char* s = "missing quote; }
+      |                        ^
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_11.c:1:24: error: missing terminating " character
+    1 | int main() { char* s = "missing quote; }
+      |                        ^~~~~~~~~~~~~~~~~
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_11.c:1:1: error: expected expression at end of input
+    1 | int main() { char* s = "missing quote; }
+      | ^~~
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_11.c:1:1: error: expected declaration or statement at end of input

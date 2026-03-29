@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_14.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_14.c:1:29: error: expected expression before ')' token
+    1 | int main() { int x = 5; if () return 0; }
+      |                             ^

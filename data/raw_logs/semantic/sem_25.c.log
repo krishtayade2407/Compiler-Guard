@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_25.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_25.c:1:56: error: invalid operands to binary + (have 'struct S' and 'int')
+    1 | struct S { int a; }; int main() { struct S s; return s + 10; }
+      |                                                        ^

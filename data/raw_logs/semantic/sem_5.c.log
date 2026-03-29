@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_5.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_5.c:1:33: error: assignment of read-only variable 'x'
+    1 | int main() { const int x = 5; x = 10; }
+      |                                 ^

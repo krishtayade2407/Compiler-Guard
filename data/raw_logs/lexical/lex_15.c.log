@@ -1,0 +1,8 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_15.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_15.c:1:22: error: expected expression before '[' token
+    1 | int main() { int x = [; }
+      |                      ^
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_15.c:1:25: error: expected ',' or ';' before '}' token
+    1 | int main() { int x = [; }
+      |                         ^
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_15.c:1:25: error: expected declaration or statement at end of input

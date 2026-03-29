@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_7.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_7.c:1:28: error: 'else' without a previous 'if'
+    1 | int main() { int x; x = 5; else x = 2; }
+      |                            ^~~~

@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_8.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_8.c:1:35: warning: division by zero [-Wdiv-by-zero]
+    1 | int main() { int x = 5; int y = x / 0; }
+      |                                   ^

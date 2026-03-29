@@ -1,0 +1,5 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_3.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_3.c:1:21: error: 'undef' undeclared (first use in this function)
+    1 | int main() { return undef; }
+      |                     ^~~~~
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_3.c:1:21: note: each undeclared identifier is reported only once for each function it appears in

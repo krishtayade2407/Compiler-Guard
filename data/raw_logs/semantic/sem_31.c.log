@@ -1,0 +1,7 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_31.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_31.c:1:48: error: duplicate case value
+    1 | int main() { int x; switch(x) { case 1: break; case 1: break; } }
+      |                                                ^~~~
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_31.c:1:33: note: previously used here
+    1 | int main() { int x; switch(x) { case 1: break; case 1: break; } }
+      |                                 ^~~~

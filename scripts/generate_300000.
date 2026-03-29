@@ -1,0 +1,87 @@
+import os
+import random
+import string
+
+def random_id(length=8):
+    return ''.join(random.choices(string.ascii_lowercase + string.digits, k=length))
+
+def generate_big_data(filename, templates, target_count):
+    path = os.path.expanduser(f"~/CD_Lab_Project/data/cleaned_data/{filename}")
+    
+    if os.path.exists(path):
+        with open(path, "r") as f:
+            existing_count = sum(1 for line in f)
+    else:
+        existing_count = 0
+
+    needed = target_count - existing_count
+    if needed <= 0:
+        print(f"{filename} already has {existing_count} samples.")
+        return
+
+    types = ["int", "double", "float", "size_t", "void*", "struct Node*", "char***", "bool", "long long", "uint64_t", "unsigned short", "long double"]
+    vars = ["ptr", "idx", "buf", "head", "node", "data", "offset", "count", "res", "tmp", "val"]
+    files = ["main.c", "engine.c", "kernel.h", "driver.c", "parser.y", "lexer.l", "api.h", "core.c"]
+    
+    print(f"Generating {needed} new samples for {filename}...")
+    
+    # Using a list and writing in one go for speed
+    new_samples = []
+    for i in range(needed):
+        temp = random.choice(templates)
+        f_name = random.choice(files)
+        v1 = f"{random.choice(vars)}_{random_id(4)}"
+        v2 = f"{random.choice(vars)}_{random_id(4)}"
+        t1 = random.choice(types)
+        t2 = random.choice(types)
+        line = random.randint(1, 99999)
+        col = random.randint(1, 200)
+        addr = f"0x{random.randint(0x10000000, 0xFFFFFFFF):x}"
+        
+        s = temp.format(v1=v1, v2=v2, t1=t1, t2=t2, f=f_name, l=line, c=col, a=addr)
+        new_samples.append(s + "\n")
+
+    with open(path, "a") as f:
+        f.writelines(new_samples)
+    print(f"✅ {filename} scaled to {target_count} samples.")
+# --- BIG DATA TEMPLATES ---
+lex_temps = [
+    "{f}:{l}:{c}: error: stray '\\{l}' in program",
+    "{f}:{l}:{c}: error: invalid suffix \"_aux_{l}\" on integer constant",
+    "missing terminating {v1} character at {f}:{l}",
+    "unknown escape sequence: '\\{v1}' at column {c} in {f}",
+    "invalid digit \"{l}\" in octal constant at {a}",
+    "multi-character character constant '{v1}' in {f} line {l}",
+    "hexadecimal floating constant at {a} requires an exponent",
+    "error: stray '#' in program at {f}:{l}:{c}",
+    "invalid suffix \"{v1}\" on floating constant in {f}"
+]
+
+syn_temps = [
+    "{f}:{l}:{c}: error: expected ';' before '{v1}'",
+    "{f}:{l}:{c}: error: expected ')' before '{v2}'",
+    "expected '{t1}' before identifier at {f}:{l}",
+    "expected expression before operator at {a}",
+    "missing '}}' at end of input in {f} near {v1}",
+    "expected declaration specifiers before '{t1}' at line {l}",
+    "expected ':' before 'default' at {a}",
+    "error: expected identifier or '(' before '{v1}' at {f}:{l}",
+    "expected 'while' before '{v1}' in do-loop at {l}"
+]
+
+sem_temps = [
+    "{f}:{l}: error: conflicting types for function '{v1}'",
+    "'{v1}' undeclared (first use in this function) in {f}:{l}",
+    "assignment to '{t1}' from '{t2}' makes integer from pointer at {a}",
+    "passing argument {c} of '{v1}' makes pointer from integer in {f}",
+    "invalid use of undefined type '{t1}' at {f}:{l}",
+    "error: size of array '{v1}' is negative ({l}) in {f}",
+    "incompatible types when assigning to type '{t1}' from type '{t2}'",
+    "invalid operands to binary operator at {a} (have '{t1}' and '{t2}')",
+    "called object '{v1}' is not a function or function pointer at {a}",
+    "dereferencing pointer to incomplete type '{t1}' in {f}"
+]
+
+generate_big_data("lexical_cleaned.txt", lex_temps, 100000)
+generate_big_data("syntactic_cleaned.txt", syn_temps, 100000)
+generate_big_data("semantic_cleaned.txt", sem_temps, 100000)

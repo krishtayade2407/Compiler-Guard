@@ -1,0 +1,5 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_4.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_4.c:1:23: warning: multi-character character constant [-Wmultichar]
+    1 | int main() { char c = 'ab'; }
+      |                       ^~~~
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_4.c:1:23: warning: overflow in conversion from 'int' to 'char' changes value from '24930' to '98' [-Woverflow]

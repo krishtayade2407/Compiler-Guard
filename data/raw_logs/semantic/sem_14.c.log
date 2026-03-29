@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_14.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_14.c:1:30: error: lvalue required as left operand of assignment
+    1 | int main() { int x = 5; main = 10; }
+      |                              ^

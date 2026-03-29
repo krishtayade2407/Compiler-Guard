@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_28.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_28.c:1:1: error: address of register variable 'x' requested
+    1 | int main() { register int x; int* p = &x; }
+      | ^~~

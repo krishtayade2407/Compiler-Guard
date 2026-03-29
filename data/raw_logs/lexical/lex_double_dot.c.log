@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_double_dot.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_double_dot.c:1:24: error: too many decimal points in number
+    1 | int main() { float z = 3.14.15; }
+      |                        ^~~~~~~

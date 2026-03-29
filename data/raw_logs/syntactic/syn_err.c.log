@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_err.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_err.c:1:24: error: expected ',' or ';' before 'if'
+    1 | int main() { int x = 5 if(x > 0) return 0; }
+      |                        ^~

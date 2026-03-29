@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_27.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_27.c:1:40: error: invalid operands to binary & (have 'double' and 'int')
+    1 | int main() { double d = 5.5; int x = d & 2; }
+      |                                        ^

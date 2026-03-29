@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_5.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_5.c:1:22: error: invalid suffix 'b2' on integer constant
+    1 | int main() { int x = 0b2; }
+      |                      ^~~

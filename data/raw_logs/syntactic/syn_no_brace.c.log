@@ -1,0 +1,12 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_no_brace.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_no_brace.c:1:18: error: 'x' undeclared (first use in this function)
+    1 | int main() { if (x > 5) { return 0 }
+      |                  ^
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_no_brace.c:1:18: note: each undeclared identifier is reported only once for each function it appears in
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_no_brace.c:1:35: error: expected ';' before '}' token
+    1 | int main() { if (x > 5) { return 0 }
+      |                                   ^~
+      |                                   ;
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_no_brace.c:1:1: error: expected declaration or statement at end of input
+    1 | int main() { if (x > 5) { return 0 }
+      | ^~~

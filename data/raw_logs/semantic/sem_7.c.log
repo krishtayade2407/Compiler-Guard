@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_7.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_7.c:1:25: error: array subscript is not an integer
+    1 | int main() { int a[5]; a["idx"] = 1; }
+      |                         ^

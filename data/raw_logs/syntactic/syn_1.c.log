@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_1.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_1.c:1:24: error: expected ',' or ';' before 'return'
+    1 | int main() { int x = 5 return 0; }
+      |                        ^~~~~~

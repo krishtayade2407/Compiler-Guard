@@ -1,0 +1,7 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_33.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_33.c:1:37: error: redeclaration of 'x' with no linkage
+    1 | int main() { static int x; auto int x; }
+      |                                     ^
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_33.c:1:25: note: previous declaration of 'x' with type 'int'
+    1 | int main() { static int x; auto int x; }
+      |                         ^

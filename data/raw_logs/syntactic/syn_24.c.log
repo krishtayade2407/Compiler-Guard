@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_24.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_24.c:1:1: error: expected declaration or statement at end of input
+    1 | int main() { if (1) { int x = 5; }
+      | ^~~

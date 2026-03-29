@@ -1,0 +1,7 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_12.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_12.c:1:31: warning: dereferencing 'void *' pointer
+    1 | int main() { void* p; int x = *p; }
+      |                               ^~
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_12.c:1:31: error: void value not ignored as it ought to be
+    1 | int main() { void* p; int x = *p; }
+      |                               ^

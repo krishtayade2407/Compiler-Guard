@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_26.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_26.c:1:38: error: assignment to expression with array type
+    1 | int main() { int a[10]; int b[10]; a = b; }
+      |                                      ^

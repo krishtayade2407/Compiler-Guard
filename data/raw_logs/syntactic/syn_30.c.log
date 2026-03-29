@@ -1,0 +1,5 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_30.c: In function 'f':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_30.c:1:1: error: expected declaration or statement at end of input
+    1 | void f(int a) { if(a) { return; } else { int x = 5;
+      | ^~~~
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_30.c:1:1: error: expected declaration or statement at end of input

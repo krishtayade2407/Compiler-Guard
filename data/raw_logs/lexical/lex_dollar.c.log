@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_dollar.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_dollar.c:1:25: error: expected ',' or ';' before '$'
+    1 | int main() { int y = 10 $ 5; }
+      |                         ^

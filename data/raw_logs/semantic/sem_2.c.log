@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_2.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_2.c:1:25: error: initialization of 'float *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+    1 | int main() { float* p = 100; }
+      |                         ^~~

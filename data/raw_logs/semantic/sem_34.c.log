@@ -1,0 +1,6 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_34.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_34.c:1:35: error: invalid operands to binary * (have 'int *' and 'int')
+    1 | int main() { int a[10]; int x = a * 2; }
+      |                                 ~ ^
+      |                                 |
+      |                                 int *

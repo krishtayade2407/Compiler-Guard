@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_21.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_21.c:1:25: error: expected expression before ';' token
+    1 | int main() { int x = 5 &; }
+      |                         ^

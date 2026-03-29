@@ -1,0 +1,7 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_18.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_18.c:1:27: error: conflicting types for 'x'; have 'float'
+    1 | int main() { int x; float x; }
+      |                           ^
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_18.c:1:18: note: previous declaration of 'x' with type 'int'
+    1 | int main() { int x; float x; }
+      |                  ^

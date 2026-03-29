@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_6.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_6.c:1:48: error: 'struct S' has no member named 'b'
+    1 | struct S { int a; }; int main() { struct S s; s.b = 10; }
+      |                                                ^

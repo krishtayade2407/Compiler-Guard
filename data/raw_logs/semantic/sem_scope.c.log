@@ -1,0 +1,5 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_scope.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_scope.c:1:21: error: 'undefined_var' undeclared (first use in this function)
+    1 | int main() { return undefined_var; }
+      |                     ^~~~~~~~~~~~~
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_scope.c:1:21: note: each undeclared identifier is reported only once for each function it appears in

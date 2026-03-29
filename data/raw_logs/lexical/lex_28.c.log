@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_28.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_28.c:1:24: error: expected expression before '.' token
+    1 | int main() { float f = .e10; }
+      |                        ^

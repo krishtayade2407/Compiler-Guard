@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_16.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_16.c:1:35: error: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+    1 | int main() { int x = 5; char* s = x; }
+      |                                   ^

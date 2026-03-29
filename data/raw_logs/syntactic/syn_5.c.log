@@ -1,0 +1,7 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_5.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_5.c:1:20: error: expected '(' before 'x'
+    1 | int main() { while x < 10 { x++; } }
+      |                    ^
+      |                    (
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_5.c:1:20: error: 'x' undeclared (first use in this function)
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_5.c:1:20: note: each undeclared identifier is reported only once for each function it appears in

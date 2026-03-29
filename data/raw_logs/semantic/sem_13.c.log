@@ -1,0 +1,7 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_13.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_13.c:1:41: error: too many arguments to function 'f'; expected 1, have 2
+    1 | int f(int a) { return a; } int main() { f(1, 2); }
+      |                                         ^    ~
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_13.c:1:5: note: declared here
+    1 | int f(int a) { return a; } int main() { f(1, 2); }
+      |     ^

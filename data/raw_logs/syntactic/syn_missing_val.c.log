@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_missing_val.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_missing_val.c:1:22: error: expected expression before ';' token
+    1 | int main() { int x = ; return 0; }
+      |                      ^

@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_25.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_25.c:1:32: warning: null character(s) preserved in literal
+    1 | int main() { char c = ' '; c = ' '; }
+      |                                ^

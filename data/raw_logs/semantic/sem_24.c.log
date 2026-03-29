@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_24.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/semantic/sem_24.c:1:29: error: assignment to 'void (*)(void)' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+    1 | int main() { void (*f)(); f = 10; }
+      |                             ^

@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_8.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_8.c:1:18: error: stray '@' in program
+    1 | int main() { int @var = 5; }
+      |                  ^

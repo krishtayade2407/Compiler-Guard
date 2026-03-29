@@ -1,0 +1,5 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_22.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_22.c:1:21: error: 'x' undeclared (first use in this function)
+    1 | int main() { switch(x) { default: case 1: } }
+      |                     ^
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/syntactic/syn_22.c:1:21: note: each undeclared identifier is reported only once for each function it appears in

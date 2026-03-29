@@ -1,0 +1,4 @@
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_7.c: In function 'main':
+/Users/krishtayade/CD_Lab_Project/data/code_snippets/lexical/lex_7.c:1:22: error: invalid suffix 'xG1' on integer constant
+    1 | int main() { int x = 0xG1; }
+      |                      ^~~~
